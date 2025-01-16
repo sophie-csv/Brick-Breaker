@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -34,12 +34,18 @@
   },
   "name":"Brick Breaker",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"obj_ball","path":"objects/obj_ball/obj_ball.yy",},},
+    {"id":{"name":"obj_bat","path":"objects/obj_bat/obj_bat.yy",},},
+    {"id":{"name":"obj_brick","path":"objects/obj_brick/obj_brick.yy",},},
+    {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
+    {"id":{"name":"spr_ball","path":"sprites/spr_ball/spr_ball.yy",},},
+    {"id":{"name":"spr_bat","path":"sprites/spr_bat/spr_bat.yy",},},
+    {"id":{"name":"spr_brick","path":"sprites/spr_brick/spr_brick.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
