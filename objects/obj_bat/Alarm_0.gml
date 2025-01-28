@@ -1,0 +1,1 @@
+iamge_xscale = 0;

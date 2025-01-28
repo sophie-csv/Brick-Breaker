@@ -4,3 +4,4 @@ global.player_score += 15;
 if(speed < 12) speed += .1;
 
 instance_destroy(other);
+
