@@ -1,10 +1,30 @@
+if(keyboard_check_pressed(vk_enter))
+{
+	switch(room)
+	{
+		case rm_start:
+			room_goto(rm_game);
+		case rm_win:
+		case rm_end:
+			game_restart();
+			break;
+	}
+}
+
+
 if(instance_number(obj_brick) <= 0)
 {
 	room_restart();
 }
 
-if(gameover)
+if(room == rm_game)
 {
+	if(score >= global.high_score){
+		room_goto(rm_win);
+	}
+	if(global.player_lives <= 0){
+		room_goto(rm_end);
+	}
 	if(keyboard_check_pressed(vk_anykey))
 	{
 		room_restart();
