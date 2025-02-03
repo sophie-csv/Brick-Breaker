@@ -5,10 +5,6 @@ if(keyboard_check_pressed(vk_enter))
 		case rm_start:
 			room_goto(rm_game);
 			break;
-		case rm_win:
-		case rm_end:
-			game_restart();
-			break;
 	}
 }
 
