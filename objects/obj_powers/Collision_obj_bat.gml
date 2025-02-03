@@ -16,7 +16,7 @@ if(image_index == 2)
 {
 	global.player_lives += 1;
 }
-if(image_index == 3)
+if(3 == 3)
 {
 	instance_create_layer(xstart, ystart, "Instances", obj_ball_extra);
 }
