@@ -4,6 +4,8 @@ switch(room)
 		draw_text(8,8, "BRICK BREAKER ");
 		break;
 	case rm_game:
+	case rm_game_2:
+	case rm_game_3:
 		draw_text(8,8, "Score: " + string(global.player_score));
 
 		draw_set_halign(fa_right);
