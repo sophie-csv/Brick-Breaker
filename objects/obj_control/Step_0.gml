@@ -5,6 +5,12 @@ if(keyboard_check_pressed(vk_enter))
 		case rm_start:
 			room_goto(rm_game);
 			break;
+		case rm_win:
+		case rm_end:	
+			room_goto(rm_game);
+			global.player_score = 0;
+			global.player_lives = 3;
+		
 	}
 }
 
@@ -18,11 +24,5 @@ if(room==rm_game and global.player_lives <= 0)
 	else
 	{
 		room_goto(rm_end);
-	}
-	if(keyboard_check_pressed(vk_anykey))
-	{
-		room_restart();
-		global.player_score = 0;
-		global.player_lives = 3;
 	}
 }
