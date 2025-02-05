@@ -42,6 +42,8 @@
     {"id":{"name":"obj_control","path":"objects/obj_control/obj_control.yy",},},
     {"id":{"name":"obj_powers","path":"objects/obj_powers/obj_powers.yy",},},
     {"id":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
+    {"id":{"name":"rm_game_2","path":"rooms/rm_game_2/rm_game_2.yy",},},
+    {"id":{"name":"rm_game_3","path":"rooms/rm_game_3/rm_game_3.yy",},},
     {"id":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"id":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
@@ -58,6 +60,8 @@
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_end","path":"rooms/rm_end/rm_end.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
+    {"roomId":{"name":"rm_game_2","path":"rooms/rm_game_2/rm_game_2.yy",},},
+    {"roomId":{"name":"rm_game_3","path":"rooms/rm_game_3/rm_game_3.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
