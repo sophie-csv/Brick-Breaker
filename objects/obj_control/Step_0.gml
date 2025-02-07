@@ -25,7 +25,6 @@ if(keyboard_check_pressed(vk_enter))
 	}
 }
 
-// instance_number(obj_brick) <= 0)
 
 if((room==rm_game || room== rm_game_2 || room == rm_game_3) and global.player_lives <= 0)
 {
@@ -38,3 +37,18 @@ if((room==rm_game || room== rm_game_2 || room == rm_game_3) and global.player_li
 		room_goto(rm_end);
 	}
 }
+else if((room==rm_game || room== rm_game_2 || room == rm_game_3) and instance_number(obj_brick) <= 0)
+{
+	if(room==rm_game)
+	{
+		room_goto(rm_game_2);
+	}
+	else if(room==rm_game_2)
+	{
+		room_goto(rm_game_3);
+	}
+	else if(room==rm_game_3)
+	{
+		room_goto(rm_game);
+	}
+}	

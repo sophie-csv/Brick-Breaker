@@ -2,6 +2,7 @@ switch(room)
 {
 	case rm_start:
 		draw_text(8,8, "BRICK BREAKER ");
+		draw_text(room_width/2, 300, "PRESS ENTER TO START");
 		break;
 	case rm_game:
 	case rm_game_2:
